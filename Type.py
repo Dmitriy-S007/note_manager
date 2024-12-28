@@ -14,8 +14,38 @@
 # surname = input('Введите фамилию: ')
 # print (f"Привет, {name} { surname}!")
 
-info = "а роза упала на лапу азора"
-print (info[2:7])
-print (info[::-1])
-print (info[::-3])
-print (info[11:6:-1])
+# info = "а роза упала на лапу азора"
+# print (info[2:7])
+# print (info[::-1])
+# print (info[::-3])
+# print (info[11:6:-1])
+
+# num1 = float(input('Введите первое чилсо: '))
+# num2 = float(input('Введите второе чилсо: '))
+# sum_result = num1 + num2
+# print(f"Сумма чисел: {sum_result}")
+# age = int(input('Введите Ваш возраст: '))
+# if age >=18:
+#     print('Доступ разрешён.')
+# else:
+#     print('Доступ запрещён.')
+
+# first_name = input('Введите Ваше имя: ')
+# last_name = input('Введите Вашу фамилию: ')
+# age = int(input('Введите Ваш возраст: '))
+# if age >=18:
+#     print(f'Приятно познакомиться, {first_name} {last_name}! Доступ разрешён.')
+# else:
+#     print(f'Приятно познакомиться, {first_name} {last_name}! Доступ запрещён.')
+
+# number = int(input('Введите число: '))
+# if number == 10:
+#     print('Вы ввели десять.')
+# else:
+#     print('Это не десять.')
+
+# name = input('Введите Ваше имя: ')
+# num1 = float(input('Введите Ваш возраст: '))
+# sum_result = num1 + int (5)
+# print (f'Через пять лет Вам будет: {sum_result}')
+
