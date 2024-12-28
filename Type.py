@@ -19,4 +19,3 @@ print (info[2:7])
 print (info[::-1])
 print (info[::-3])
 print (info[11:6:-1])
-
