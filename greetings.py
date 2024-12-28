@@ -1,1 +1,13 @@
+username = ('Дмитрий')
+print(f'Имя пользователя: {username}')
+title = ('Note_manager')
+print(f'Заголовок заметки: {title}')
+content = ('Блокной для записей')
+print(f'Описание заметки: {content}')
+status = ('Активная')
+print(f'Статус заметки: {status}')
+created_date = ('28.12.2024')
+print(f'Дата создания: {created_date}')
+issue_date = ('28.01.2025')
+print(f'Дата истечения заметки (дедлайн): {issue_date}')
 
