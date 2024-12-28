@@ -14,3 +14,9 @@
 # surname = input('Введите фамилию: ')
 # print (f"Привет, {name} { surname}!")
 
+info = "а роза упала на лапу азора"
+print (info[2:7])
+print (info[::-1])
+print (info[::-3])
+print (info[11:6:-1])
+
