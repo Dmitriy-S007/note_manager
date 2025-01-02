@@ -1,19 +1,23 @@
-
+note = []
 username = input('Введите Ваше имя: ')
-title = input('Введите заголовок заметки: ')
-title2 = input('Введите второй заголовок заметки: ')
-title3 = input('Введите третий заголовок заметки: ')
-info = [title, title2, title3]
+note.append(username)
+info = input("Введите заголовок заметки: ")
+info2 = input("Введите второй заголовок заметки: ")
+info3 = input("Введите третий заголовок заметки: ")
+title = (info,info2,info3)
+note.append(title)
 content = input('Введите описание заметки: ')
+note.append(content)
 status = input('Введите статус заметки: ')
+note.append(status)
 created_date = input('Введите дату создания заметки, в формате dd.mm.yyyy: ')
+note.append(created_date)
 issue_date = input('Введите дату истечения срока заметки, в формате dd.mm.yyyy: ')
-note = [
-    (f'Имя пользователя: {username}'),
-    (f'Заголовок заметки: {info}'),
-    (f'Описание заметки: {content}'),
-    (f'Статус заметки: {status}'),
-    (f'Дата создания: {created_date}'),
-    (f'Дата изменения: {issue_date}')
-]
-print(note)
+note.append(issue_date)
+
+print("Имя пользователя:", note[0])
+print("Содержание заметки:", note[2])
+print("Статус:", note[3])
+print("Дата создания заметки:", note [4][:6])
+print("Дата истечения заметки:", note [5][:6])
+print("Заголовок заметки:", note[1])
