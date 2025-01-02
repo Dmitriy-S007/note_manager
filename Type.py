@@ -74,3 +74,78 @@
 # print(f'Дата создания: {created_date}')
 # issue_date = ('28.01.2025')
 # print(f'Дата истечения заметки (дедлайн): {issue_date}')
+
+# info = [1, 2, 3]
+# info2 = [1, 1.5, 'Строка', [4, 5, 'Cnhjrf2']]
+# print (info)
+# print (info2)
+
+# names = [
+#     'Misha', 'Vasya', 'Max',
+#     'Galya', 'Kolya'
+# ]
+#
+# names.sort()
+# print(names)
+
+# result = names.pop()
+# print(result)
+# print(names)
+
+# names.append('ilya') - Добавляет в список
+
+# print(names)
+# print(names[1]) - Vasya
+# print(names[::-1])
+
+# result = names.count('Vasya')
+# print(result) - кол-во
+
+# from sys import getsizeof
+# info = [1, 2, 3, 4, 5]
+# info2 = (1, 2, 3, 4, 5)
+# # 88 88 104
+# # 64 72 80
+# print(getsizeof(info))
+# print(getsizeof(info2))
+
+# text = "Привет, Python!"
+# print(text.lower())  # привет, python!
+# print(text.upper())  # ПРИВЕТ, PYTHON!
+# print(text.capitalize())  # Привет, python!
+# print(text.title())  # Привет, Python!
+# print(text.swapcase())  # пРИВЕТ, pYTHON!
+
+# text = "  Привет  "
+# print(text.strip())  # "Привет" Удаление пробелов по краям
+# print(text.lstrip())  # "Привет  " Удаление пробелов слева
+# print(text.rstrip())  # "  Привет" Удаление пробелов справа
+
+# text = "Я люблю Python, потому что Python лучший!"
+# print(text.find("Python"))  # 8 (первое вхождение)
+# print(text.rfind("Python"))  # 27 (последнее вхождение)
+# print(text.replace("Python", "программирование"))
+# # Я люблю программирование, потому что программирование лучший!
+
+# text = "Разделяем эту строку на слова"
+# words = text.split()  # ['Разделяем', 'эту', 'строку', 'на', 'слова']
+# print("|".join(words))  # Разделяем|эту|строку|на|слова
+
+# text = "42"
+# print(text.zfill(5))  # 00042
+# print(text.rjust(5))  # '   42'
+# print(text.ljust(5, '*'))  # '42***'
+
+# def is_palindrome(text):
+#     cleaned = text.lower().replace(" ", "")
+#     return cleaned == cleaned[::-1]
+# print(is_palindrome("А роза упала на лапу Азора")) - true
+
+# def longest_word(sentence):
+#     words = sentence.split()
+#     return max(words, key=len)
+# print(longest_word("Это пример строки для тестирования"))
+# # тестирования
+
+# text = "Привет, Python!"
+# text.join()
