@@ -81,7 +81,7 @@ def check_deadline(issue_date):
         elif days_difference == 0:
             print("Внимание! Дедлайн сегодня.")
         else:
-            print(f"До дедлайна осталось {days_difference} дней.")
+            print(f"До дедлайна осталось дней - {days_difference}.")
     except ValueError:
         print("Неверный формат даты. Пожалуйста, введите дату в формате dd.mm.yyyy.")
 
