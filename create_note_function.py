@@ -1,4 +1,4 @@
-# create_note_function.py
+
 # Функция для создания заметки и возврата словаря.
 import datetime
 
