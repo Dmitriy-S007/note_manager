@@ -80,8 +80,8 @@ def display_notes(notes):
         print(Fore.YELLOW + f"Заголовок: {note.get('title')}")
         print(Fore.YELLOW + f"Описание: {note.get('content')}")
         print(Fore.YELLOW + f"Статус: {note.get('status')}")
-        print(Fore.YELLOW + f"Дата создания: {note.get('created_date')}")
-        print(Fore.YELLOW + f"Дедлайн: {note.get('issue_date')}")
+        print(Fore.YELLOW + f"Дата создания: {note.get('created_date')[0:5]}")
+        print(Fore.YELLOW + f"Дедлайн: {note.get('issue_date')[0:5]}")
         print(Fore.CYAN + "-" * 20)
 
 
