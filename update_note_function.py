@@ -2,18 +2,10 @@
 
 import datetime
 
-note = {
-        'username': 'D',
-        'title': '1',
-        'content': 'A',
-        'status': 'новая',
-        'created_date': '12.01.2025',
-        'issue_date': '19.01.2025'
-    }
-
 
 def update_note(note):
-    """Позволяет пользователю обновить поле заметки."""
+    # Функция обновления данных заметки
+
     print("\nТекущие данные заметки:")
     print(note)
 
@@ -56,7 +48,14 @@ def update_note(note):
     print(note)
     return note
 
-
 if __name__ == "__main__":
+    note = {
+            'username': 'D',
+            'title': '1',
+            'content': 'A',
+            'status': 'новая',
+            'created_date': '12.01.2025',
+            'issue_date': '19.01.2025'
+    }
     sample_note = dict(note)
     updated_note = update_note(sample_note)
